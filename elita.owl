@@ -1,0 +1,42 @@
+@prefix elita:  <http://w3id.org/elita/> . 
+@prefix lilaIpoLemma: <http://lila-erc.eu/data/id/hypolemma/> . 
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> . 
+@prefix lilaPrefix: <http://lila-erc.eu/data/id/prefix/> . 
+@prefix lilaSuffix: <http://lila-erc.eu/data/id/suffix/> . 
+@prefix dcterms: <http://purl.org/dc/terms/> . 
+@prefix lilaLemma: <http://lila-erc.eu/data/id/lemma/> . 
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> . 
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> . 
+@prefix lilaBase: <http://lila-erc.eu/data/id/base/> . 
+
+elita:Emotion a owl:Class . 
+elita:Word a owl:Class . 
+
+elita:HasEmotion a owl:ObjectProperty ;
+   rdfs:domain elita:Word ; 
+   rdfs:range elita:Emotion ;
+   rdfs:label "has emotion"@en . 
+
+elita:Gioia a elita:Emotion ;
+   rdfs:label "Gioia"@it . 
+
+elita:Tristezza a elita:Emotion ; 
+  rdfs:label "Tristezza"@it . 
+
+elita:Paura a elita:Emotion ; 
+  rdfs:label "Paura"@it .
+
+elita:Disgusto a elita:Emotion ; 
+  rdfs:label "Disgusto"@it . 
+
+elita:Rabbia a elita:Emotion ; 
+   rdfs:label "Rabbia"@it . 
+
+elita:Sorpresa a elita:Emotion ; 
+  rdfs:label "Sorpresa"@it . 
+
+elita:Aspettativa a elita:Emotion ; 
+   rdfs:label "Aspettativa"@it . 
+
+elita:Fiducia a elita:Emotion ; 
+   rdfs:label "Fiducia"@it .
