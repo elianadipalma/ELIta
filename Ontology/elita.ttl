@@ -8,12 +8,11 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> . 
 @prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> . 
 @prefix lilaBase: <http://lila-erc.eu/data/id/base/> . 
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
 
 elita:Emotion a owl:Class . 
-elita:Word a owl:Class . 
-
+ 
 elita:HasEmotion a owl:ObjectProperty ;
-   rdfs:domain elita:Word ; 
    rdfs:range elita:Emotion ;
    rdfs:label "has emotion"@en . 
 
@@ -40,3 +39,7 @@ elita:Aspettativa a elita:Emotion ;
 
 elita:Fiducia a elita:Emotion ; 
    rdfs:label "Fiducia"@it .
+
+elita:Amore a elita:Emotion ;
+   rdfs:label "Amore"@it .
+
