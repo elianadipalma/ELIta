@@ -1,13 +1,8 @@
 @prefix elita:  <http://w3id.org/elita/> . 
-@prefix lilaIpoLemma: <http://lila-erc.eu/data/id/hypolemma/> . 
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> . 
-@prefix lilaPrefix: <http://lila-erc.eu/data/id/prefix/> . 
-@prefix lilaSuffix: <http://lila-erc.eu/data/id/suffix/> . 
 @prefix dcterms: <http://purl.org/dc/terms/> . 
-@prefix lilaLemma: <http://lila-erc.eu/data/id/lemma/> . 
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> . 
 @prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> . 
-@prefix lilaBase: <http://lila-erc.eu/data/id/base/> . 
 @prefix owl: <http://www.w3.org/2002/07/owl#>.
 
 elita:Emotion a owl:Class . 
